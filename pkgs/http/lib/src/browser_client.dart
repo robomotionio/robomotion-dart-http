@@ -35,7 +35,7 @@ class BrowserClient extends BaseClient {
   /// cross-site requests.
   ///
   /// Defaults to `false`.
-  bool withCredentials = false;
+  bool withCredentials = true;
 
   /// Sends an HTTP request and asynchronously returns the response.
   @override
